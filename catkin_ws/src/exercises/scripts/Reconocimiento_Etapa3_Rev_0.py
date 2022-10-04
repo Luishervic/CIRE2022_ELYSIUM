@@ -106,7 +106,7 @@ class S0(smach.State):
         move_arm_init()
         # Especificamos el punto objetivo en el orden (X, Y, Angulo)
         move_base_goal(3, 5.5, 0)
-        # Movemos la persepcion para tener una deteccion clara.
+        # Movemos la percepcion para tener una deteccion clara.
         move_head_tilt(-0.8)
         return 'outcome1'
     
